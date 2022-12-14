@@ -13,10 +13,10 @@ public class Start {
         System.out.println(sub1);
         System.out.println(sub2);
 
-        // not contained in sub1
+        // NOT CONTAINED IN SUB1
         System.out.println(sub1.indexOf("est"));
 
-        // contained in sub2
+        // CONTAINED IN SUB2
         System.out.println(sub2.indexOf("est"));
 
         System.out.println(sub1.contains("est") ^ sub2.contains("est"));
