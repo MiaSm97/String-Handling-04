@@ -7,10 +7,11 @@ public class Start {
         String tooLongString = veryLongString.replace("um", "HUM");
         System.out.println(tooLongString);
 
-        String sub1 = veryLongString.substring(0, veryLongString.indexOf("aliquip"));
+        String sub1 = veryLongString.substring(0, veryLongString.indexOf(" aliquip"));
         String sub2 = veryLongString.substring(veryLongString.indexOf("aliquip"));
 
-        System.out.println(sub1 + sub2);
+        System.out.println(sub1);
+        System.out.println(sub2);
 
         // not contained in sub1
         System.out.println(sub1.indexOf("est"));
